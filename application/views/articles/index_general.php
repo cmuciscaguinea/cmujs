@@ -58,7 +58,7 @@
                 <!-- IMAGE -->
                 <div class="row">
                     <div class="col-md-2 ml-5">
-                        <img class="img-fluid pad" src="<?php echo base_url()?>assets/upload/uploaded_images/article_image.jpg" alt="Photo">
+                        <img class="img-fluid pad" src="<?php echo base_url()?>assets/upload/uploaded_images/no_images.png" alt="Photo">
                     </div>
                     
                     <blockquote class="quote-success col-md-9">
