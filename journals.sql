@@ -11,7 +11,7 @@
  Target Server Version : 100432
  File Encoding         : 65001
 
- Date: 25/05/2024 17:03:18
+ Date: 27/05/2024 19:28:31
 */
 
 SET NAMES utf8mb4;
@@ -224,7 +224,7 @@ CREATE TABLE `users`  (
   `date_created` datetime NULL DEFAULT current_timestamp,
   `profile_pic` varchar(255) CHARACTER SET utf16 COLLATE utf16_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`userid`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 65 CHARACTER SET = utf16 COLLATE = utf16_general_ci ROW_FORMAT = DYNAMIC;
+) ENGINE = InnoDB AUTO_INCREMENT = 66 CHARACTER SET = utf16 COLLATE = utf16_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of users
@@ -238,7 +238,7 @@ INSERT INTO `users` VALUES (59, 'Desty Anse A.', ' Aboy', 'aboy@gmail.com', '202
 INSERT INTO `users` VALUES (60, 'Kyla Marie O.', 'Genson', 's.genson.kylamarie@cmu.edu.ph', '2024-05-22 02:53:46', 'b59c67bf196a4758191e42f76670ceba', 1, b'1', '2024-05-22 02:53:46', NULL);
 INSERT INTO `users` VALUES (61, 'Charity T. ', 'Turano', 's.turano.charity@cmu.edu.ph', '2024-05-22 02:54:25', 'b59c67bf196a4758191e42f76670ceba', 1, b'1', '2024-05-22 02:54:25', NULL);
 INSERT INTO `users` VALUES (63, 'Rubie', ' Andoy Arroyo', 'arroyo@gmail.com', '2024-05-25 09:14:42', 'dcddb75469b4b4875094e14561e573d8', 1, b'1', '2024-05-25 09:14:42', NULL);
-INSERT INTO `users` VALUES (64, 'CMU', 'JS', 'cmujs@gmail.com', '2024-05-25 09:18:05', '4a7d1ed414474e4033ac29ccb8653d9b', 2, b'1', '2024-05-25 09:18:05', NULL);
+INSERT INTO `users` VALUES (65, 'CMU', 'JS', 'cmujs@gmail.com', '2024-05-27 18:42:02', '4a7d1ed414474e4033ac29ccb8653d9b', 2, b'1', '2024-05-27 18:42:02', NULL);
 
 -- ----------------------------
 -- Table structure for volume

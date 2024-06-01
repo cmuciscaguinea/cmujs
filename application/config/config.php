@@ -22,12 +22,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | If you need to allow multiple domains, remember that this file is still
 | a PHP script and you can easily do that on your own.
 |
-// */
+*/
 $root = "http://".$_SERVER['HTTP_HOST'];
 $root .= dirname($_SERVER['SCRIPT_NAME']);
 $config['base_url'] = $root;
 
-// $config['base_url'] = "http://172.16.10.33/cmujs2";
+// $config['base_url'] = "http://192.168.68.12/cmujs";
 /*
 |--------------------------------------------------------------------------
 | Index File
